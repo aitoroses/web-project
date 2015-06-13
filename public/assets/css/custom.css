@@ -1,0 +1,79 @@
+/* Add here all your css styles (customizations) */
+#new-logo {
+  background: url('../images/logo_white.png');
+  width: 20.5rem;
+  height: 7rem;
+  position: relative;
+  top: -2rem;
+  background-size: 95% 92%;
+  background-repeat: no-repeat;
+}
+
+.top-nav-collapse  #new-logo{
+  background: url('../images/logo_black.png');
+  width: 20.5rem;
+  height: 7rem;
+  position: relative;
+  top: -2rem;
+  background-size: 95% 92%;
+  background-repeat: no-repeat;
+  opacity: 0.7;
+}
+
+.social-icons.navigation {
+  height: 0;
+  position: relative;
+  top: 12px;
+}
+
+/* COLOR THEME */
+/* Base Color: #94C6CF, light #C2F6FF, Dark #607E83 */
+i.icon-bg-u {
+  background: #94C6CF
+}
+
+.team-v1 li:hover > p:before {
+  background: #94C6CF
+}
+
+/* Navigation items color */
+.one-page-header .navbar-nav > li > a,
+.one-page-header .navbar-nav > li > a:hover,
+.one-page-header .navbar-nav > li > a:focus
+{
+  color: #94C6CF !important
+}
+
+.one-page-header .navbar-nav > .active > a,
+.one-page-header .navbar-nav > .active > a:hover,
+.one-page-header .navbar-nav > .active > a:focus
+{
+  color: #C2F6FF !important
+}
+
+.top-nav-collapse .navbar-nav > li > a,
+.top-nav-collapse .navbar-nav > li > a:hover,
+.top-nav-collapse .navbar-nav > li > a:focus
+{
+  color: #9FA2A3 !important
+}
+
+.top-nav-collapse .navbar-nav > .active > a,
+.top-nav-collapse .navbar-nav > .active > a:hover,
+.top-nav-collapse .navbar-nav > .active > a:focus
+{
+  color: black !important
+}
+
+.pace .pace-progress {
+  background: #94C6CF;
+}
+
+::selection {
+  color: black;
+  background: white;
+}
+
+.about-section a {
+  color: #82B3BB
+}
